@@ -15,4 +15,4 @@
 
 # Diagrama de Flujo
 
-https://www.lucidchart.com/invitations/accept/c2292aa0-3d6b-4720-8c72-9b50bcacaab1
+[Ver diagrama](https://www.lucidchart.com/invitations/accept/c2292aa0-3d6b-4720-8c72-9b50bcacaab1)
