@@ -6,7 +6,7 @@
     - Guardar los elementos en una nueva variable que sea un array vacío
     - Si existe algún vacío o letras, retornar error y detener la función
     - Si la función continua, recorrer el nuevo arreglo de números desde la posición 1, hasta el largo del array pero avanzando de 2 en 2 para acceder a los elementos en la posición par
-    - Multiplicar cada elemento en posición par por 2 
+    - Multiplicar cada elemento en posición par por 2 y reemplazarlos en el array
     - Comprobar si cada elemento es mayor o igual a 10, si esto es verdadero sumar los 2 números del resultado de la multiplicación y reemplazarlos en el array de números.
     - Recorrer el array de números desde la posición 0, hasta el largo del array y avanzando de 1 en 1 para sumar todos los elementos del array de números
     - Si el módulo de 10 de la suma anterior es igual a 0, el número de la tarjeta es válida. Si no, el número de la tarjeta es inválida.
