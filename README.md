@@ -13,3 +13,5 @@ Recorrer el array de números desde la posición 0, hasta el largo del array y a
 Si el módulo de 10 de la suma anterior es igual a 0, el número de la tarjeta es válida. Si no, el número de la tarjeta es inválida.
 
 Llamar a la funcion para que se ejecute
+
+
