@@ -18,13 +18,14 @@ var isValidCard = function (sentence) {    //transformar la variable de entrada 
       if ((doubleElement) >=10){
         newArray[i] = parseInt(doubleElement/10) + (doubleElement%10);   //sumar los digitos del resultado de la multiplicacion de los numeros en ubicacion par por 2 y cambiarlos en el array inverso
       }
-      console.log(newArray[i])
+      else{
+        newArray[i]=doubleElement;
+      }
     }
     var sum = 0;
     for (var i = 0; i < newArray.length; i++){   //sumar todos los numeros del newArray
       sum = sum + newArray[i];
     }
-    console.log(sum)
     if (sum % 10 === 0){                       //verificar que el residuo de 10 de la suma de todos los números es 0
       return alert ("Tarjeta Válida");
     }
