@@ -11,8 +11,7 @@ var isValidCard = function (sentence) {    //transformar la variable de entrada 
       return alert ("Por favor ingrese un número válido");
       }
     }
-    newArray.reverse();
-    console.log(newArray)                    //invertir el orden del array de numbers
+    newArray.reverse();              //invertir el orden del array de numbers
     for (var i = 1 ; i <newArray.length; i=i+2){  //ubicar los numeros en posición par y multiplicarlos por 2
       var doubleElement = newArray[i]*2;
       if ((doubleElement) >=10){
