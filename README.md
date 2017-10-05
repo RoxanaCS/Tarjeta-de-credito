@@ -1,18 +1,15 @@
 # Tarjeta-de-credito
-string de entrada = prompt("ingrese el número de la tarjeta de crédito");
+Usar un prompt para pedir al usuario el número de su tarjeta de crédito, con esto tendremos un string de entrada
 
-funcion isValidCard(string de entrada)
-array = Convierte string a array de strings
-newArray = arreglo vacío
-Recorrer array desde i=0; i= array.length; i++ para cambiar array[i] de string a número, siempre que array[i] no sea un vacío o letras. 
-Guardar array [i] en newArray.
-Si el array[i] está vacío o contine letras, retorna error y la función se detiene.
-Si la función continua, recorrer newArray desde i=1; i= newArray.length; i = i+2 para acceder a newArray[i] en la posición par.
-newArray [i] * 2 = dobleElemento 
-Comprobar si dobleElemento >= 10, si esto es verdadero sumar los 2 números del resultado de la multiplicación y guardarlos en newArray[i].
+Crear la funcion isValidCard (string de entrada)
+Conviertir el string a array de strings para poder manipular cada caracter 
+Recorrer el array de strings desde la posición 0, hasta el largo del array y cambiar todos sus elementos de string a número, siempre y cuando no haya un vacío o letras
+Guardar los elementos en una nueva variable que sea un array vacío
+Si existe algín vacío o letras, retornar error y detener la función
+Si la función continua, recorrer el nuevo arreglo de números desde la posción 1, hasta el largo del array pero avanzando de 2 en 2 para acceder a los elementos en la posición par
+Crear una variable que corresponda a cada elemento en posición par multiplicado por 2 
+Comprobar si la variable anterior es mayor o igual a 10, si esto es verdadero sumar los 2 números del resultado de la multiplicación y reemplazarlos en el array de números.
+Recorrer el array de números desde la posición 0, hasta el largo del array y avanzando de 1 en 1 para sumar todos los elementos del array de números
+Si el módulo de 10 de la suma anterior es igual a 0, el número de la tarjeta es válida. Si no, el número de la tarjeta es inválida.
 
-Recorrer newArray desde i=0, i=newArray.length, i++ 
-Suma = suma de todos los newArray[i]
-Si suma % 10 === 0, el número de la tarjeta es válida. Si no, el número de la tarjeta es inválida.
-
-Llamar a la funcion
+Llamar a la funcion para que se ejecute
